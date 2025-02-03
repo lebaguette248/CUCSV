@@ -1,0 +1,4 @@
+user_login,user_email,user_pass,role
+john_doe,john@example.com,password123,editor
+jane_smith,jane@example.com,securepass456,administrator
+alice_jones,alice@example.com,alicepass789,subscriber

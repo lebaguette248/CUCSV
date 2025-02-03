@@ -1,0 +1,117 @@
+.header_CUCSV {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.header_CUCSV h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.content_CUCSV {
+    padding: 20px;
+}
+
+.content_CUCSV p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.content_CUCSV ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.content_CUCSV li {
+    margin-bottom: 5px;
+}
+
+.form_CUCSV {
+    margin-top: 20px;
+}
+
+.form_CUCSV form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.form_CUCSV input[type="file"] {
+    margin-bottom: 10px;
+    border: 1px solid #005177;
+    border-radius: 0.5rem;
+    padding: 10px 0 10px 5px;
+}
+
+.form_CUCSV input[type="submit"] {
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+.form_CUCSV input[type="submit"]:hover {
+    background-color: #005177;
+}
+
+.form_CUCSV input[type="submit"]:disabled {
+    background-color: #ccc;
+    color: #fff;
+    cursor: not-allowed;
+}
+
+.form_CUCSV .error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.form_CUCSV input[type="file"]::file-selector-button {
+    display: none;
+}
+
+.form_CUCSV label {
+    background-color: #0073aa;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    display: inline-block;
+    margin: 5px;
+}
+
+.form_CUCSV label:hover {
+    background-color: #005177;
+}
+
+
+.TestCSV_CUCSV {
+    background-color: #02bf02;
+    padding: 10px;
+    border-radius: 0.5rem;
+    color: white;
+    text-decoration-line: none;
+}
+
+.OutputCSV_CUCSV {
+    background-color: #afe100;
+    padding: 10px;
+    border-radius: 0.5rem;
+    color: white;
+    text-decoration-line: none;
+}
+
+.TestCSV_CUCSV:hover {
+    background-color: #00a200;
+    color: white;
+}
+
+.OutputCSV_CUCSV:hover {
+    background-color: #85aa00;
+    color: white;
+}
+
